@@ -1,0 +1,90 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* fonte simples e legível */
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;  
+    border-radius: 15px;    
+    width: 100%;    
+    max-width: 400px;    
+    text-align: center; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.795);
+    }
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2f5d2f; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    display: block;
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2f5d2f;
+}
+
+input {
+    width: 100%; 
+    max-width: 300px; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none; 
+    border-color: #56ab2f; 
+}
+
+button {
+    background-color: #ff9800; 
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor:pointer;
+    margin-top: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover do botão */
+button:hover {
+    background-color: #fb8c00;
+    transform: scale(1.05);
+}
+
+
+#resultado {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1b5e20; 
+    margin-bottom: 10px;
+}
